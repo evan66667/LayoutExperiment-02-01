@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <Button
+        android:id="@+id/btn_exp1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="实验1 LinearLayout"/>
+
+    <Button
+        android:id="@+id/btn_exp2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="实验2 TableLayout"/>
+
+    <Button
+        android:id="@+id/btn_exp3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="实验3 ConstraintLayout计算器"/>
+
+    <Button
+        android:id="@+id/btn_exp4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="实验4 ConstraintLayout太空航班"/>
+
+</LinearLayout>

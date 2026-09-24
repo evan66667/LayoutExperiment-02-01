@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="LayoutExperiment"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.LayoutExperiment">
+
+        <!-- 主入口，4个跳转按钮 -->
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- 实验1 LinearLayout 4*4文本 -->
+        <activity
+            android:name=".LinearActivity"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize" />
+        <!-- 实验2 TableLayout 文件菜单 -->
+        <activity
+            android:name=".TableActivity"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize" />
+        <!-- 实验3 ConstraintLayout① 计算器UI -->
+        <activity
+            android:name=".ConstraintCalcActivity"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize" />
+        <!-- 实验4 ConstraintLayout② 太空航班页面 -->
+        <activity
+            android:name=".SpaceFlightActivity"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize" />
+    </application>
+
+</manifest>
